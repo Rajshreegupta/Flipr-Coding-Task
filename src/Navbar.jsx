@@ -5,7 +5,7 @@ import logo from './FrontendAssets/logo.svg';
 
 function Navbar(){
     return <div class="topnav">
-       <c>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={logo} width="50" height="50"/></c>
+       <c><img src={logo} width="50" height="50"/></c>
        <b>Intugine</b>
        <a><img src={profile}/></a>
        <a>Transporters</a>
