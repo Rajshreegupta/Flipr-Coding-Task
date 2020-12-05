@@ -1,3 +1,5 @@
+import profile from './profile.svg';
+import logo from './FrontendAssets/logo.svg';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -16,9 +18,11 @@ import './index.css';
 
 ReactDOM.render(
   <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#brands">Brands</a>
-  <a href="#transporter">Transporter</a>
-  <a href="#about">About</a>
+  <c>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={logo} width="50" height="50"/></c>
+  <b>Intugine</b>
+  <a><img src={profile}/></a>
+  <a>Transporters</a>
+  <a>Brands</a>
+  <a class="active">Home</a>
 </div>,
   document.getElementById("root"));
