@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Flipr-Coding-Task/static/css/main.77780111.chunk.css",
+    "main.js": "/Flipr-Coding-Task/static/js/main.4cd011d6.chunk.js",
+    "main.js.map": "/Flipr-Coding-Task/static/js/main.4cd011d6.chunk.js.map",
+    "runtime-main.js": "/Flipr-Coding-Task/static/js/runtime-main.1f323431.js",
+    "runtime-main.js.map": "/Flipr-Coding-Task/static/js/runtime-main.1f323431.js.map",
+    "static/css/2.6a702ce1.chunk.css": "/Flipr-Coding-Task/static/css/2.6a702ce1.chunk.css",
+    "static/js/2.a2f1fb58.chunk.js": "/Flipr-Coding-Task/static/js/2.a2f1fb58.chunk.js",
+    "static/js/2.a2f1fb58.chunk.js.map": "/Flipr-Coding-Task/static/js/2.a2f1fb58.chunk.js.map",
+    "static/js/3.4b5e9d15.chunk.js": "/Flipr-Coding-Task/static/js/3.4b5e9d15.chunk.js",
+    "static/js/3.4b5e9d15.chunk.js.map": "/Flipr-Coding-Task/static/js/3.4b5e9d15.chunk.js.map",
+    "index.html": "/Flipr-Coding-Task/index.html",
+    "static/css/2.6a702ce1.chunk.css.map": "/Flipr-Coding-Task/static/css/2.6a702ce1.chunk.css.map",
+    "static/css/main.77780111.chunk.css.map": "/Flipr-Coding-Task/static/css/main.77780111.chunk.css.map",
+    "static/js/2.a2f1fb58.chunk.js.LICENSE.txt": "/Flipr-Coding-Task/static/js/2.a2f1fb58.chunk.js.LICENSE.txt",
+    "static/media/destination.5336278d.svg": "/Flipr-Coding-Task/static/media/destination.5336278d.svg",
+    "static/media/logo.60097ea2.svg": "/Flipr-Coding-Task/static/media/logo.60097ea2.svg",
+    "static/media/profile.2fbd2bc9.svg": "/Flipr-Coding-Task/static/media/profile.2fbd2bc9.svg",
+    "static/media/warehouse.147c9c0b.svg": "/Flipr-Coding-Task/static/media/warehouse.147c9c0b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f323431.js",
+    "static/css/2.6a702ce1.chunk.css",
+    "static/js/2.a2f1fb58.chunk.js",
+    "static/css/main.77780111.chunk.css",
+    "static/js/main.4cd011d6.chunk.js"
+  ]
+}
