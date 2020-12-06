@@ -50,7 +50,7 @@ class App extends Component {
           </div>
           <div className="row">
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <h4><Timeline /></h4>
+                <Timeline />
             </div>
             <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
               <GridContainer />

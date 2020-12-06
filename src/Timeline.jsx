@@ -7,11 +7,11 @@ const Timeline = () =>
     scan.length > 0 && (
         <div>
             <img src={dest} className='Image destinationImage' />
-        <div className="timeline-container">
-            {scan.map((scan, idx) => (
-                <TimelineItem scan={scan} key={idx} />
-            ))}
-        </div>
+            <div className="timeline-container">
+                {scan.map((scan, idx) => (
+                    <TimelineItem scan={scan} key={idx} />
+                ))}
+            </div>
             <img src={src} className='Image sourceImage'/>
         </div>
     );
