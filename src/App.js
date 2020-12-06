@@ -3,12 +3,17 @@ import Navbar from './Navbar'
 import './App.css';
 import StatusButtons from './StatusButtons';
 import {GridContainer} from './GridContainer';
+import Timeline from './Timeline';
 import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
 import profile from './profile.svg';
 import logo from './FrontendAssets/logo.svg';
 import down from './FrontendAssets/down.jpg';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './index.css';
+import '@progress/kendo-theme-material/dist/all.css';
+import { Ripple } from '@progress/kendo-react-ripple';
+
+
 
 
 class App extends Component {
@@ -21,6 +26,7 @@ class App extends Component {
   }
   render(){
     return (
+      <Ripple>
       <div className="bootstrap-wrapper">
         <div className="app-container container">
           <div className="row">
@@ -44,7 +50,7 @@ class App extends Component {
           </div>
           <div className="row">
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <h4>Timeline</h4>
+                <h4><Timeline /></h4>
             </div>
             <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
               <GridContainer />
@@ -54,6 +60,7 @@ class App extends Component {
             
         </div>
       </div>
+      </Ripple>
     );
 }
 }

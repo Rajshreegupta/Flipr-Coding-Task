@@ -1,7 +1,8 @@
 import scan from './scan.jsx';
+
 import TimelineItem from "./Timelineitem";
-const src = "./FrontendAssets/warehouse.svg"
-const dest = "./FrontAssets/destination.svg"
+import src from "./FrontendAssets/warehouse.svg";
+import dest from "./FrontendAssets/destination.svg";
 const Timeline = () =>
     scan.length > 0 && (
         <div>
